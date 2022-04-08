@@ -16,7 +16,6 @@ if(process.env.NODE_ENV === 'production') {
     res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'))
   })
 }
-
-app.listen(env.PORT || 3001, () => {
+app.listen(process.env.PORT || 3001, () => {
   console.log("express listening");
 });
