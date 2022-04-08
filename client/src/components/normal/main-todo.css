@@ -1,0 +1,12 @@
+.column-container {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 60vw;
+    margin: 20%;
+}
+.main-container {
+    padding: 2%;
+    border-radius: 2%;
+    background-color: lightgreen;
+}

@@ -1,0 +1,14 @@
+.maximize-productivity {
+    justify-content:center ;
+    align-items: center;
+    text-align: center;
+  }
+  .maximize-productivity button {
+    margin: 30%;
+    padding: 15%;
+    width: 200%;
+    border-radius: 4%;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }

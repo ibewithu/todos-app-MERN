@@ -1,0 +1,17 @@
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.about {
+    height: 40vh;
+    background-color: #ffbf23;
+}
+.about-content {
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10vh;
+}

@@ -1,0 +1,26 @@
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.outline {
+    width: 80%;
+    height: 60vh;
+    background-color: #F5F5F8;
+    padding: 3%;
+    border: none;
+    border-radius: 1%;
+    margin: 5%;
+    overflow: scroll;
+}
+.back-btn {
+    justify-content: center;
+}
+.back-btn button {
+    padding: 0.3%;
+    background-color: black;
+}
+.back-btn a {
+    text-decoration: none;
+    color: white;
+
+}

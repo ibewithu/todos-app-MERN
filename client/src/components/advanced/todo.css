@@ -1,0 +1,21 @@
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.each-todo {
+    width: 80%;
+    height: 10vh;
+    margin: 2% 10%;
+    padding: 1%;
+    border-radius: 1%;
+    color: black;
+    background-color: antiquewhite;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

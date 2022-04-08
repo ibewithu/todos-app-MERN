@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.create-tab {
+    margin: 1% 0;
+    justify-content: space-around;
+}
+.create-content {
+    justify-content: space-around;
+}
+.feature-tab {
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.feature-tab img {
+    margin: 2%;
+    object-fit: contain;
+    padding: 2%;
+    display: block;
+}
+.create-button {
+    padding: 15%;
+    width: 130%;
+    border-radius: 4%;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

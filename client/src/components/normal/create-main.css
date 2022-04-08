@@ -1,0 +1,32 @@
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form {
+    height: 50%;
+    width: 80%;
+    justify-content: space-around;
+}
+.two-button {
+    justify-content: space-around;
+}
+.form-button {
+    padding: 26%;
+    width: 243%;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    
+}
+input {
+    padding: 1.5%;
+}
+label {
+    color: black;
+}
